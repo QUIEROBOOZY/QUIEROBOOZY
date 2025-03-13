@@ -3,34 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url='https://www.instagram.com/quieroboozy'" />
     <title>BOOZY QR</title>
-    <script>
-        function detectDevice() {
-            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-                window.location.href = "https://www.instagram.com/quieroboozy";
-            } else {
-                document.getElementById("message").style.display = "block";
-            }
-        }
-    </script>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-            font-family: Arial, sans-serif;
-        }
-        #message {
-            display: none;
-            font-size: 24px;
-            color: #333;
-        }
-    </style>
 </head>
-<body onload="detectDevice()">
-    <div id="message">Lo siento, pero Tan sexy que Boozy</div>
+<body>
 </body>
 </html>
